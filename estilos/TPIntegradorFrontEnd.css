@@ -1,0 +1,120 @@
+body {
+	width: 100%;
+	margin: auto;
+}
+
+/* NAVEGACION */
+#verde {
+	color: #29a744;
+}
+
+#verde:hover {
+	color: lightgreen;
+}
+
+#navegacion {
+	height: 7rem;
+	background-color: #353a40;
+	font-size: 1.5em;
+}
+
+#navegacion2 {
+	width: 90%;
+}
+
+#navegacion2>a {
+	font-size: 1.3em;
+}
+
+/* CAROUSEL */
+#carousel>div>div>img {
+	filter: brightness(70%);
+}
+
+#botonCarousel {
+	background-color: #29a744;
+}
+
+#botonCarousel:hover {
+	background-color: lightgreen;
+}
+
+.divC {
+	width: 40%;
+	height: 60%;
+	/* 	margin-left: 40%; */
+	margin: auto auto auto 35%;
+	font-size: 1.5em;
+}
+
+.divC>button {
+	font-size: 1em;
+}
+
+/* TITULOS */
+.titulos {
+	text-align: center;
+	margin: 1em;
+}
+
+.titulos, h1 {
+	font-weight: 600;
+}
+
+/* CARDS */
+.card-group {
+	width: 75%;
+	margin: auto;
+}
+
+.card {
+	margin: 0em 2em;
+}
+
+#cardTexto {
+	background-color: #353a40;
+	font-size: 1.25em;
+}
+
+/* FORMULARIO */
+#formulario {
+	width: 50%;
+	margin: auto;
+}
+
+#formulario>h6 {
+	text-align: center;
+}
+
+#textArea {
+	font-size: 1.75em;
+}
+
+span#lineaDePuntos {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+
+#botonForm {
+	background-color: #96c93e;
+	height: 2.25em;
+	font-size: 1.5em;
+}
+
+/* FOOTER */
+footer {
+	background-color: #1b3743;
+	/* 	https://mdbootstrap.com/docs/standard/tools/design/gradients/ */
+	background: linear-gradient(to right, rgba(27, 55, 67, 1),
+		rgba(30, 83, 114, 1));
+	font-size: 1.25em;
+	text-align: center;
+	font-size: 1.25em;
+}
+
+footer>ul>li>a {
+	width: 10em;
+	color: white;
+	text-align: center;
+	color: white;
+}
